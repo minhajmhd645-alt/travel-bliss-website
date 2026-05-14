@@ -1,0 +1,1071 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    line-height: 1.5;
+    color:darkslateblue;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #66bfaf;
+    color: #d096cb;
+    padding: 1rem 0;
+}
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+    .nav-links a {
+        color: darkblue;
+        text-decoration: none;
+    }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+            color: aliceblue;
+        }
+
+#hero {
+    background: url('sea.jpg')no-repeat center center/cover;
+    color: #038b94;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+    #hero h2 {
+        font-size: 2.5rem;
+    }
+
+    #hero p {
+        margin: 1rem 0;
+    }
+
+.btn {
+    background-color: #038b94;
+    color: wheat;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+    .btn:hover {
+        background-color: #33b5ab;
+    }
+
+.grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+}
+
+.card, .service {
+    background-color: aliceblue;
+    padding: 1rem;
+    border: 1px solid #038b94;
+    border-radius: 5px;
+    text-align: center;
+}
+
+    .card img {
+        width: 100%;
+        height: 500px;
+        border-radius: 5px;
+    }
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+    footer .footer-nav {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+        footer .footer-nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+            footer .footer-nav a:hover {
+                text-decoration: underline;
+            }
+
+ul li {
+    list-style-type: none;
+}
+
+a:hover {
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+}
+
+.social-media {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+    .social-media a {
+        color: ghostwhite;
+        text-decoration: none;
+        font-size: 50px;
+        }
+
+@media(max-width:768px) {
+    header.container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    line-height: 1.5;
+    color:darkslateblue;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #66bfaf;
+    color: #96d0c6;
+    padding: 1rem 0;
+}
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+    .nav-links a {
+        color: darkblue;
+        text-decoration: none;
+    }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+            color: aliceblue;
+        }
+
+#hero {
+    background: url('sea.jpg')no-repeat center center/cover;
+    color: #038b94;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+    #hero h2 {
+        font-size: 2.5rem;
+    }
+
+    #hero p {
+        margin: 1rem 0;
+    }
+
+.btn {
+    background-color: #038b94;
+    color: wheat;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+    .btn:hover {
+        background-color: #33b5ab;
+    }
+
+.grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+}
+
+.card, .service {
+    background-color: aliceblue;
+    padding: 1rem;
+    border: 1px solid #038b94;
+    border-radius: 5px;
+    text-align: center;
+}
+
+    .card img {
+        width: 100%;
+        height: 500px;
+        border-radius: 5px;
+    }
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+    footer .footer-nav {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+        footer .footer-nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+            footer .footer-nav a:hover {
+                text-decoration: underline;
+            }
+
+ul li {
+    list-style-type: none;
+}
+
+a:hover {
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+}
+
+.social-media {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+    .social-media a {
+        color: ghostwhite;
+        text-decoration: none;
+        font-size: 50px;
+        }
+
+@media(max-width:768px) {
+    header.container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    line-height: 1.5;
+    color:darkslateblue;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #66bfaf;
+    color: #96d0c6;
+    padding: 1rem 0;
+}
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+    .nav-links a {
+        color: darkblue;
+        text-decoration: none;
+    }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+            color: aliceblue;
+        }
+
+#hero {
+    background: url('sea.jpg')no-repeat center center/cover;
+    color: #038b94;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+    #hero h2 {
+        font-size: 2.5rem;
+    }
+
+    #hero p {
+        margin: 1rem 0;
+    }
+
+.btn {
+    background-color: #038b94;
+    color: wheat;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+    .btn:hover {
+        background-color: #33b5ab;
+    }
+
+.grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+}
+
+.card, .service {
+    background-color: aliceblue;
+    padding: 1rem;
+    border: 1px solid #038b94;
+    border-radius: 5px;
+    text-align: center;
+}
+
+    .card img {
+        width: 100%;
+        height: 500px;
+        border-radius: 5px;
+    }
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+    footer .footer-nav {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+        footer .footer-nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+            footer .footer-nav a:hover {
+                text-decoration: underline;
+            }
+
+ul li {
+    list-style-type: none;
+}
+
+a:hover {
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+}
+
+.social-media {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+    .social-media a {
+        color: ghostwhite;
+        text-decoration: none;
+        font-size: 50px;
+        }
+
+@media(max-width:768px) {
+    header.container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    line-height: 1.5;
+    color:darkslateblue;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #66bfaf;
+    color: #96d0c6;
+    padding: 1rem 0;
+}
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+    .nav-links a {
+        color: darkblue;
+        text-decoration: none;
+    }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+            color: aliceblue;
+        }
+
+#hero {
+    background: url('sea.jpg')no-repeat center center/cover;
+    color: #038b94;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+    #hero h2 {
+        font-size: 2.5rem;
+    }
+
+    #hero p {
+        margin: 1rem 0;
+    }
+
+.btn {
+    background-color: #038b94;
+    color: wheat;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+    .btn:hover {
+        background-color: #33b5ab;
+    }
+
+.grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+}
+
+.card, .service {
+    background-color: aliceblue;
+    padding: 1rem;
+    border: 1px solid #038b94;
+    border-radius: 5px;
+    text-align: center;
+}
+
+    .card img {
+        width: 100%;
+        height: 500px;
+        border-radius: 5px;
+    }
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+    footer .footer-nav {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+        footer .footer-nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+            footer .footer-nav a:hover {
+                text-decoration: underline;
+            }
+
+ul li {
+    list-style-type: none;
+}
+
+a:hover {
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+}
+
+.social-media {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+    .social-media a {
+        color: ghostwhite;
+        text-decoration: none;
+        font-size: 50px;
+        }
+
+@media(max-width:768px) {
+    header.container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    line-height: 1.5;
+    color:darkslateblue;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #66bfaf;
+    color: #96d0c6;
+    padding: 1rem 0;
+}
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+    .nav-links a {
+        color: darkblue;
+        text-decoration: none;
+    }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+            color: aliceblue;
+        }
+
+#hero {
+    background: url('sea.jpg')no-repeat center center/cover;
+    color: #038b94;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+    #hero h2 {
+        font-size: 2.5rem;
+    }
+
+    #hero p {
+        margin: 1rem 0;
+    }
+
+.btn {
+    background-color: #038b94;
+    color: wheat;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+    .btn:hover {
+        background-color: #33b5ab;
+    }
+
+.grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+}
+
+.card, .service {
+    background-color: aliceblue;
+    padding: 1rem;
+    border: 1px solid #038b94;
+    border-radius: 5px;
+    text-align: center;
+}
+
+    .card img {
+        width: 100%;
+        height: 500px;
+        border-radius: 5px;
+    }
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+    footer .footer-nav {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+        footer .footer-nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+            footer .footer-nav a:hover {
+                text-decoration: underline;
+            }
+
+ul li {
+    list-style-type: none;
+}
+
+a:hover {
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+}
+
+.social-media {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+    .social-media a {
+        color: ghostwhite;
+        text-decoration: none;
+        font-size: 50px;
+        }
+
+@media(max-width:768px) {
+    header.container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    line-height: 1.5;
+    color:darkslateblue;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #66bfaf;
+    color: #96d0c6;
+    padding: 1rem 0;
+}
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+    .nav-links a {
+        color: darkblue;
+        text-decoration: none;
+    }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+            color: aliceblue;
+        }
+
+#hero {
+    background: url('sea.jpg')no-repeat center center/cover;
+    color: #038b94;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+    #hero h2 {
+        font-size: 2.5rem;
+    }
+
+    #hero p {
+        margin: 1rem 0;
+    }
+
+.btn {
+    background-color: #038b94;
+    color: wheat;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+    .btn:hover {
+        background-color: #33b5ab;
+    }
+
+.grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+}
+
+.card, .service {
+    background-color: aliceblue;
+    padding: 1rem;
+    border: 1px solid #038b94;
+    border-radius: 5px;
+    text-align: center;
+}
+
+    .card img {
+        width: 100%;
+        height: 500px;
+        border-radius: 5px;
+    }
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+    footer .footer-nav {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+        footer .footer-nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+            footer .footer-nav a:hover {
+                text-decoration: underline;
+            }
+
+ul li {
+    list-style-type: none;
+}
+
+a:hover {
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+}
+
+.social-media {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+    .social-media a {
+        color: ghostwhite;
+        text-decoration: none;
+        font-size: 50px;
+        }
+
+@media(max-width:768px) {
+    header.container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    line-height: 1.5;
+    color:darkslateblue;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #66bfaf;
+    color: #96d0c6;
+    padding: 1rem 0;
+}
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+    .nav-links a {
+        color: darkblue;
+        text-decoration: none;
+    }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+            color: aliceblue;
+        }
+
+#hero {
+    background: url('sea.jpg')no-repeat center center/cover;
+    color: #038b94;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+    #hero h2 {
+        font-size: 2.5rem;
+    }
+
+    #hero p {
+        margin: 1rem 0;
+    }
+
+.btn {
+    background-color: #038b94;
+    color: wheat;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+    .btn:hover {
+        background-color: #33b5ab;
+    }
+
+.grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+}
+
+.card, .service {
+    background-color: aliceblue;
+    padding: 1rem;
+    border: 1px solid #038b94;
+    border-radius: 5px;
+    text-align: center;
+}
+
+    .card img {
+        width: 100%;
+        height: 500px;
+        border-radius: 5px;
+    }
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+    footer .footer-nav {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+        footer .footer-nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+            footer .footer-nav a:hover {
+                text-decoration: underline;
+            }
+
+ul li {
+    list-style-type: none;
+}
+
+a:hover {
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+}
+
+.social-media {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+    .social-media a {
+        color: ghostwhite;
+        text-decoration: none;
+        font-size: 50px;
+        }
+
+@media(max-width:768px) {
+    header.container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+
+
